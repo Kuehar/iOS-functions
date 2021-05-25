@@ -13,6 +13,8 @@
 		7248C5A4265D33F2002853F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7248C5A3265D33F2002853F0 /* Preview Assets.xcassets */; };
 		7248C5AF265D33F2002853F0 /* expressjsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248C5AE265D33F2002853F0 /* expressjsonTests.swift */; };
 		7248C5BA265D33F2002853F0 /* expressjsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248C5B9265D33F2002853F0 /* expressjsonUITests.swift */; };
+		7248C5CC265D3483002853F0 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248C5CB265D3483002853F0 /* userModel.swift */; };
+		7248C5D4265D34E6002853F0 /* userViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248C5D3265D34E6002853F0 /* userViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		7248C5B5265D33F2002853F0 /* expressjsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = expressjsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7248C5B9265D33F2002853F0 /* expressjsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expressjsonUITests.swift; sourceTree = "<group>"; };
 		7248C5BB265D33F2002853F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7248C5CB265D3483002853F0 /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		7248C5D3265D34E6002853F0 /* userViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7248C5A0265D33F2002853F0 /* Assets.xcassets */,
 				7248C5A5265D33F2002853F0 /* Info.plist */,
 				7248C5A2265D33F2002853F0 /* Preview Content */,
+				7248C5CB265D3483002853F0 /* userModel.swift */,
+				7248C5D3265D34E6002853F0 /* userViewModel.swift */,
 			);
 			path = expressjson;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7248C59F265D33F1002853F0 /* ContentView.swift in Sources */,
+				7248C5D4265D34E6002853F0 /* userViewModel.swift in Sources */,
 				7248C59D265D33F1002853F0 /* expressjsonApp.swift in Sources */,
+				7248C5CC265D3483002853F0 /* userModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
